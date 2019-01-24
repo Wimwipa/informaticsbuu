@@ -1,7 +1,7 @@
 <?php
 
 $API_URL = 'https://api.line.me/v2/bot/message/reply';
-$ACCESS_TOKEN = '';
+$ACCESS_TOKEN = 'bwau6hoKRQvjCR1u/LoPM1QPb17YMOemnhmCryH6GLWnleAe3quvbAk61WDKWneBBaDrFSRfbAfKP/5eK6Erq2bEtoqIgXV1ncTAzRFqN2bhUDOof2YjCIHREOn5qsnTZRIirR/04kVgas9VrVXUXwdB04t89/1O/w1cDnyilFU=';
 
 $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
